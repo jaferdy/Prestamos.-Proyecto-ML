@@ -1,0 +1,23 @@
+classifier__max_depth: 8
+classifier__max_features: 3
+classifier__max_leaf_nodes: 6
+classifier__min_samples_split: 4
+classifier__n_estimators: 150
+scaler: null
+selectkbest__k: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i4
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  CwAAAA==

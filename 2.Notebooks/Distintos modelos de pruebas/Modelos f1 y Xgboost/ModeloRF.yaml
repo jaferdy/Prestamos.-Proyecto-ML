@@ -1,0 +1,24 @@
+classifier__max_depth: 2
+classifier__max_features: 7
+scaler: !!python/object:sklearn.preprocessing._data.StandardScaler
+  _sklearn_version: 1.2.2
+  copy: true
+  with_mean: true
+  with_std: true
+selectkbest__k: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i4
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  DQAAAA==

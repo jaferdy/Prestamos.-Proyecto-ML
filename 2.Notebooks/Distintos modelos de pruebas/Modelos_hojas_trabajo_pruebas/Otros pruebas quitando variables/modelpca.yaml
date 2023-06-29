@@ -1,0 +1,24 @@
+classifier__max_depth: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i4
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  BQAAAA==
+classifier__min_samples_leaf: 2
+pca__n_components: 7
+scaler: !!python/object:sklearn.preprocessing._data.StandardScaler
+  _sklearn_version: 1.2.2
+  copy: true
+  with_mean: true
+  with_std: true
