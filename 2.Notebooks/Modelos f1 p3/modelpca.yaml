@@ -1,0 +1,8 @@
+classifier__max_depth: 7
+classifier__min_samples_leaf: 8
+pca__n_components: 5
+scaler: !!python/object:sklearn.preprocessing._data.StandardScaler
+  _sklearn_version: 1.2.2
+  copy: true
+  with_mean: true
+  with_std: true
